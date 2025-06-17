@@ -1,11 +1,14 @@
 #REQ 1
 # faça os imports que julgar necessários
-
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 
 #REQ 2
 #essa função deve devolver a base de dados
-def ler_base():
-  pass
+
 
 #REQ 3
 #essa função recebe a base lida anteriormente
