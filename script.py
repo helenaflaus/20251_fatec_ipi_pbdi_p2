@@ -8,7 +8,9 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 
 #REQ 2
 #essa função deve devolver a base de dados
-
+def ler_base():
+    base = pd.read_csv(r'dados.csv')
+    return base
 
 #REQ 3
 #essa função recebe a base lida anteriormente
