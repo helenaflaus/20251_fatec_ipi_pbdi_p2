@@ -2,6 +2,7 @@
 # faça os imports que julgar necessários
 import pandas as pd
 import numpy as np
+from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
